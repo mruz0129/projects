@@ -1,0 +1,15 @@
+# Step 1: Initialize a new virtual environment
+python3 -m venv venv
+
+# Step 2: Activate the virtual environment
+source venv/bin/activate
+
+# Step 3: Install necessary packages
+pip install setuptools
+pip install dlib
+pip install opencv-python
+pip install face_recognition
+pip install mysql-connector-python
+
+# Step 4: Running the script
+python3 main.py

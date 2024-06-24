@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #f0f0f0;
+                font-family: Arial, sans-serif;
+            }
+            .center {
+                display: block;
+                margin: 0 auto;
+                width: 80%;
+                max-width: 800px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+        </div>
+    </body>
+</html>

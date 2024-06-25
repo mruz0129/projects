@@ -13,3 +13,4 @@
 # pillow==10.3.0
 # setuptools==70.1.0
 # Werkzeug==3.0.3
+gunicorn==19.7.1

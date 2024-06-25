@@ -10,6 +10,7 @@ pip install dlib
 pip install opencv-python
 pip install face_recognition
 pip install mysql-connector-python
+pip install flask
 
 # Step 4: Running the script
 python3 main.py
